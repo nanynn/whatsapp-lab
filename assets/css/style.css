@@ -1,0 +1,111 @@
+/*colores
+gris claro = #eee;
+blanco= #fefefe
+input = #f2f0ee
+verde fondo = #009589
+gris fondo= #dfdfdf
+respuesta chat= #dbf7c7*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+h3, p{
+	margin: 0;
+	padding:0;
+}
+
+#fondo-gris{
+	background-color: #dfdfdf;
+	background-size: cover;
+	position: relative;
+}
+
+.fondo-verde{
+    background-color: #009589;
+    width: 90%;
+    height: 10em;
+    position: fixed;
+    top: 0; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	right: 
+}
+
+#barra-gris{
+	z-index: 9999;
+	background-color: #eee;
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	margin-top: 2%;
+	position: relative;
+}
+
+#caja-img{
+	width: 40px;
+	height: 40px;
+	padding: 0;
+}
+
+.caja-chat-dos{
+	padding: 0;
+	margin: 0;
+}
+
+.chat-left, .chat-right{
+	border: #e4e4e4 solid 1px;
+	height: 60px;
+	padding: 0;
+	background-color: #fefefe;
+	position: relative;
+}
+
+.fa-ellipsis-v, .fa-paperclip{
+	color: #7F7F7F;
+	padding-top: 20%;
+	padding-left: 10px;
+}
+.title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 1px;
+}
+.caja-input{
+	background-color: #fefefe;
+	padding: 0 0;
+	margin: 0;
+	width: 100%;
+}
+.caja-chat{
+	background-image: url(../img/chat-panel-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 60vh;*/
+}
+
+.espacio-chat{
+	background-color: #eee;
+	padding: 0;
+}
+
+.fa-microphone{
+	color:#7F7F7F;
+}
+.info{
+	background-color: #dbf7c7;
+	padding: 10px;
+	border-radius: 5px;
+	width: 50%;
+	border-bottom: 5px;
+	text-align: right;
+}
